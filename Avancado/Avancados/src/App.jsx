@@ -2,6 +2,11 @@
 import './App.css'
 //10 - Importando imagem do Assets
 import ibirapuera from "./assets/ibirapuera.jfif"
+
+// 11 - Importando hooks - useState
+
+import Dados from './componentes/dados'
+
 function App() {
 
 
@@ -15,6 +20,9 @@ function App() {
 
       {/*Importando imagem do assets */}
       <img src={ibirapuera} alt="Foto do Parque Ibirapuera" title='Parque Ibirapuera' />
+
+      {/*Importando Hooks*/}
+      <Dados />
     </div>
   )
 }
