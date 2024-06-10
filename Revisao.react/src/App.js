@@ -1,6 +1,7 @@
 import Header from './components/Header/index.js';
 import Pesquisa from './components/Pesquisa/index.js';
 import styled from 'styled-components';
+import UltimosLancamentos from './components/UltimosLancamentos/index.js';
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <AppContainer>
       <Header />
       <Pesquisa />
+      <UltimosLancamentos />
     </AppContainer>
   );
 }
